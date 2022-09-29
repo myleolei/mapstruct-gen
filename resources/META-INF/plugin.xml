@@ -1,0 +1,41 @@
+<idea-plugin>
+    <id>github.myleolei.plugin.mapstruct-gen</id>
+    <name>MapstructGen</name>
+    <version>0.1</version>
+    <vendor email="lwm0522003@gmail.com" url="https://github.com/myleolei/">LeoLei</vendor>
+
+    <description><![CDATA[
+      Easily generate @mapping of Mapstruct, visualization interface, mouse click to configure the Mapping relationship.
+      <br/>
+      轻松生成Mapstruct的 @Mapping,可视化界面,鼠标点击配置映射关系.
+    ]]></description>
+
+    <change-notes><![CDATA[
+        初始版本
+    ]]>
+    </change-notes>
+
+    <!-- please see https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html for description -->
+    <idea-version since-build="173.0"/>
+
+    <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.lang</depends>
+    <depends>com.intellij.modules.java</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+        <action id="org.leo.mapstructgen.MapstructGenAction" class="org.leo.mapstructgen.MapstructGenAction"
+                text="MapstructGen"
+                description="Auto generation Mapstruct @Mapping">
+            <add-to-group group-id="GenerateGroup" anchor="last"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="shift ctrl M" second-keystroke="ctrl alt G"/>
+        </action>
+    </actions>
+
+</idea-plugin>
