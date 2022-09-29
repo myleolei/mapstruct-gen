@@ -5,6 +5,8 @@
     <vendor email="lwm0522003@gmail.com" url="https://github.com/myleolei/">LeoLei</vendor>
 
     <description><![CDATA[
+      <img src="https://github.com/myleolei/mapstruct-gen/raw/main/doc/demo.gif"/>
+      <br/>
       Easily generate @mapping of Mapstruct, visualization interface, mouse click to configure the Mapping relationship.
       <br/>
       轻松生成Mapstruct的 @Mapping,可视化界面,鼠标点击配置映射关系.
