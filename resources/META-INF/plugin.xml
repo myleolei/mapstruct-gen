@@ -9,11 +9,32 @@
       <br/>
       Easily generate @mapping of Mapstruct, visualization interface, mouse click to configure the Mapping relationship.
       <br/>
+      <h2>User Guide</h2>
+      <ol>
+        <li>Selected function name from Mapstruct mapper <li>
+        <li>Generate (Alt+Insert) and click MapstructGen<li>
+        <li>Click "Source Field" column choose mapping source/target <li>
+        <li>Double click "Source Content" column setup mapping relationship <li>
+        <li>Click "Apply" and then will auto generate @Mapping annotation<li>
+      </ol>
+      <br/>
       轻松生成Mapstruct的 @Mapping,可视化界面,鼠标点击配置映射关系.
+      <br/>
+      <h2>使用说明</h2>
+      <ol>
+        <li>从Mapstruct的Mapper接口中选中要配置的方法名 <li>
+        <li>右击鼠标调出"Generate"菜单(或按下Alt+Insert)然后点击 MapstructGen<li>
+        <li>单击"Source Field"中某一单元格选中要配置的source和target字段 <li>
+        <li>在"Source Content" 中双击要映射的的属性名<li>
+        <li>点击"Apply"后会自动生成 @Mapping 注解<li>
+      </ol>
     ]]></description>
 
     <change-notes><![CDATA[
-        初始版本
+        <h3>0.1</h3>
+          <ul>
+              <li>First Commit/ 初始版本</li>
+          </ul>
     ]]>
     </change-notes>
 
